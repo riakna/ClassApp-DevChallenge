@@ -1,8 +1,9 @@
 # ClassApp-DevChallenge
-Program made for selection process of ClassApp
 
-To run the program:
+Programa desenvolvido para o processo seletivo da ClassApp por Ricardo Akira Nagaishi
 
-node index.js
-
-It creates a file called output.json with the information of input.csv in a json file,
+Para executar o programa são necessários os seguintes comandos:
+- npm install csv
+- npm install google-libphonenumber
+- npm install email-validator
+- node index.js
