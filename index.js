@@ -185,8 +185,6 @@ var parser = parse({delimiter: ','}, function (err, data) {
 
     const json = JSON.stringify(json_array);
 
-    console.log (json);
-
     fs.writeFile("output.json", json, (error) => {
         if (error !== null) {
             console.log(error)
